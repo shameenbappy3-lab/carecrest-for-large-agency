@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>One central back office for every location | CareCrest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="images/logo.png" alt="CareCrest"></a>
+    <nav>
+      <a href="#audience">Who it's for</a>
+      <a href="#calculator">Calculator</a>
+      <a href="https://app.carecrest.ai/demo">Live demo</a>
+      <a class="nav-cta" href="tel:+18554777175">+1-855-477-7175</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="grid">
+      <div class="hero-copy" data-reveal="left">
+        <span class="badge">For regional multi-location agencies &middot; Franchise networks &middot; Central HR teams</span>
+        <h1>Scale to more locations without adding office headcount.</h1>
+        <p class="sub">
+          CareCrest acts as a centralized 24/7 digital back office. It fields applications,
+          runs AI phone screens and schedules interviews across every territory, so a lean
+          central team can manage recruitment for all of your locations.
+        </p>
+        <div class="btnrow">
+          <a class="btn btn-primary" href="#calculator">See what it costs you today &rarr;</a>
+          <a class="btn btn-ghost" href="https://app.carecrest.ai/demo">Try live 5-minute demo</a>
+        </div>
+      </div>
+      <div class="hero-photo" data-reveal="scale">
+        <span class="blob" aria-hidden="true"></span>
+        <!-- IMAGE: replace with multi-location / team-at-desk photo -->
+        <img class="hero-main-image" src="images/hero-3.jpg" alt="A central recruiting team supporting several agency locations">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFILE STATS -->
+  <section class="profile">
+    <div class="profile-grid three">
+      <div class="stat" data-reveal="up" style="--d:.05s"><b>24/7</b><span>screening across every territory</span></div>
+      <div class="stat" data-reveal="up" style="--d:.12s"><b>60 sec</b><span>to engage a new applicant</span></div>
+      <div class="stat" data-reveal="up" style="--d:.2s"><b>3x</b><span>caregiver volume per branch team</span></div>
+    </div>
+    <p class="profile-line" data-reveal="up">
+      Sound like your growth squeeze? Outgrown hands-on office management, but without an
+      enterprise IT team or a national marketing budget.
+    </p>
+    <div class="photo-band">
+      <!-- IMAGES: swap for your own -->
+      <img data-reveal="up" src="images/hero.jpg" alt="Regional office team reviewing candidates">
+      <img data-reveal="up" style="--d:.1s" src="images/caregiver-walk.jpg" alt="Caregiver supporting a client during movement">
+      <img data-reveal="up" style="--d:.18s" src="images/caregiver-hands.jpg" alt="Caregiver helping a client sit comfortably">
+    </div>
+  </section>
+
+  <!-- THE PROBLEM -->
+  <section class="problem">
+    <p class="eyebrow">The operational reality</p>
+    <h2 class="sec" data-reveal="up">When you go from 1 to 5 locations, overhead grows faster than revenue.</h2>
+
+    <div class="diagram" data-reveal="up">
+      <div class="dg-col">
+        <p class="dg-label">Today: every office hires its own team</p>
+        <div class="dg-box">Territory A &middot; Office 1<small>Own recruiter + scheduler</small></div>
+        <div class="dg-box">Territory B &middot; Office 2<small>Own recruiter + scheduler</small></div>
+        <div class="dg-box">Territory C &middot; Office 3<small>Own recruiter + scheduler</small></div>
+      </div>
+      <div class="dg-arrow" aria-hidden="true">&rarr;</div>
+      <div class="dg-out bad">
+        Fragmented office staff &amp; local overtime spikes
+        <small>Caregiver pools stay trapped in silos. Office A pays high overtime while Office C, 15 miles away, has caregivers sitting idle without hours.</small>
+      </div>
+    </div>
+
+    <div class="diagram" data-reveal="up">
+      <div class="dg-col">
+        <p class="dg-label">With CareCrest: one central back office</p>
+        <div class="dg-box">All territories<small>Applications, screens, scheduling</small></div>
+      </div>
+      <div class="dg-arrow" aria-hidden="true">&rarr;</div>
+      <div class="dg-out good">
+        One lean central team, one shared caregiver pipeline
+        <small>You don't need a recruiter and scheduler in every single office.</small>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUDIENCE TABS -->
+  <section class="audience" id="audience">
+    <p class="eyebrow">Built for your structure</p>
+    <h2 class="sec" data-reveal="up">Two ways multi-unit operators use CareCrest.</h2>
+
+    <div class="tabs" role="tablist" aria-label="Choose your agency type">
+      <button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="p1">Regional multi-location</button>
+      <button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="p2">Franchise networks</button>
+    </div>
+
+    <div class="tab-panel" id="p1" role="tabpanel" aria-labelledby="t1">
+      <p class="quote">&ldquo;Establish a centralized regional back office. CareCrest handles candidate applications, AI screening and interview scheduling across all your territories, 24/7.&rdquo;</p>
+      <div class="impact">
+        <div><b>The problem</b>Replicating full administrative staff at every location destroys the margin gains you expect from scaling multi-unit operations.</div>
+        <div><b>The regional impact</b>Administrative overhead drops as a percentage of revenue, and you can open or acquire adjacent territories faster.</div>
+      </div>
+    </div>
+
+    <div class="tab-panel" id="p2" role="tabpanel" aria-labelledby="t2" hidden>
+      <p class="quote">&ldquo;Give your franchisees a winning national recruitment and operating engine.&rdquo;</p>
+      <div class="impact">
+        <div><b>The problem</b>Administrative headcount grows linearly with client volume, capping multi-unit profitability.</div>
+        <div><b>The business impact</b>Higher EBITDA margin per branch while keeping high caregiver-to-client touchpoints.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <p class="eyebrow">What you get</p>
+    <h2 class="sec" data-reveal="up">A standardized engine for every location.</h2>
+    <div class="cards">
+      <div class="panel card" data-reveal="up"><span class="ico">1</span><h3>Centralized back office</h3><p>One system fields applications, runs AI screening and schedules interviews for all territories, so each branch team can manage 3x the active caregiver volume without burning out.</p></div>
+      <div class="panel card" data-reveal="up" style="--d:.08s"><span class="ico">2</span><h3>Standardized screening &amp; onboarding</h3><p>Unified, brand-approved AI screening, background-check workflows and credential tracking across every branch, ending rogue, non-compliant hiring practices.</p></div>
+      <div class="panel card" data-reveal="up" style="--d:.16s"><span class="ico">3</span><h3>Plug applicant leakage</h3><p>When national ad campaigns run, up to 50% of leads drop off from slow local follow-up. CareCrest engages applicants within 60 seconds on behalf of the local branch.</p></div>
+      <div class="panel card" data-reveal="up"><span class="ico">4</span><h3>System-wide retention benchmarking</h3><p>See caregiver churn and compliance across all territories. Pinpoint which branches lose caregivers in the critical 0&ndash;90 day window and deploy automated re-engagement.</p></div>
+      <div class="panel card" data-reveal="up" style="--d:.08s"><span class="ico">5</span><h3>Turn-key value for franchisees</h3><p>Make your franchise package more attractive to prospective and existing multi-unit owners with an AI-driven digital back office as a preferred vendor or core system tool.</p></div>
+      <div class="panel card" data-reveal="up" style="--d:.16s"><span class="ico">6</span><h3>One dashboard, multiple seats</h3><p>Consistent scorecards and searchable data across all applicants, with seats for your whole office and HR team in one account.</p></div>
+    </div>
+  </section>
+
+  <!-- CALCULATOR -->
+  <section class="calc-section" id="calculator">
+    <p class="eyebrow">The math</p>
+    <h2 class="sec">Multiply the manual screening hours by every location.</h2>
+    <div class="calc">
+      <div class="panel" id="inputs"></div>
+      <div>
+        <div class="panel results" aria-live="polite">
+          <h3>Hours your teams put into screening applicants</h3>
+          <p class="big"><span id="hm">0</span> <span class="unit">hrs per month</span></p>
+          <p class="big-l"><b id="hy">0</b> hrs per year</p>
+          <div class="cost-block">
+            <b class="cost-big" id="cost">$0</b>
+            <span class="cost-label">annual cost of screening applicants*</span>
+            <small class="cost-foot">* (does not include cost of Indeed or background checks)</small>
+          </div>
+          <p class="weekly"><b id="wk">0</b> hours every week</p>
+          <p class="fte"><b id="fte">0</b> full-time recruiters' worth of work</p>
+          <div class="cta-inline">
+            <p>That's the workload one central back office can take on. Hear it for yourself.</p>
+            <a class="btn" href="https://app.carecrest.ai/demo">Try live 5-minute demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARISON -->
+  <section class="cmp">
+    <div class="split">
+      <!-- IMAGE: swap -->
+      <img data-reveal="left" src="images/hero-2.jpg" alt="Central team coordinating hiring across locations">
+      <div data-reveal="right">
+        <p class="eyebrow">Why it matters</p>
+        <h2 class="sec">Every office rebuilding the same recruiting team is the margin leak.</h2>
+      </div>
+    </div>
+    <div class="two">
+      <div class="panel without" data-reveal="left">
+        <h3>Location-by-location hiring</h3>
+        <ul>
+          <li>A recruiter and scheduler hired in every single office</li>
+          <li>Caregiver pools trapped in silos, with overtime in one office and idle caregivers in the next</li>
+          <li>Each branch screens differently, so quality and compliance vary</li>
+          <li>Slow local follow-up loses up to half of national ad leads</li>
+        </ul>
+      </div>
+      <div class="panel with" data-reveal="right">
+        <h3>The CareCrest central back office</h3>
+        <ul>
+          <li>One lean central team manages recruitment for all locations</li>
+          <li>Voice AI calls every applicant, retries and schedules interviews 24/7</li>
+          <li>Unified, brand-approved scorecards protect your name across territories</li>
+          <li>Applicants engaged within 60 seconds, so leads convert instead of leaking</li>
+          <li>Open or acquire adjacent territories without duplicating office staff</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" data-reveal="up">
+    <p class="eyebrow">Sized for you</p>
+    <h2 class="sec">Pricing that scales with your locations.</h2>
+    <div class="panel price-card">
+      <div class="price-top">
+        <div>
+          <h3>Multi-Location &amp; Network Plans</h3>
+          <ul style="list-style:none;margin-bottom:0;padding:0 0 0 35px;">
+            <li>Phone-screen volume sized to your number of locations</li>
+            <li>Multiple recruiter and HR seats in one account</li>
+            <li>Centralized dashboard across all territories</li>
+            <li>Corporate-standardized screening and reporting for networks</li>
+          </ul>
+        </div>
+        <div class="price-amt custom">Custom<span> pricing</span></div>
+      </div>
+      <p class="pricing-note">Tell us your locations and monthly applicants and we'll size a plan on a 20-minute call.</p>
+      <div class="btnrow">
+        <a class="btn btn-primary" href="https://cal.com/carecrest/agencydemo">Schedule a call &rarr;</a>
+        <a class="btn btn-ghost" href="https://app.carecrest.ai/demo">Try live 5-minute demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="proof">
+    <p class="eyebrow" data-reveal="up">What lands in your inbox</p>
+    <h2 class="sec" data-reveal="up">A finished read on every applicant, in one dashboard.</h2>
+    <div class="proof-grid">
+      <div class="panel" data-reveal="left">
+        <span class="sample-tag">Sample scorecard</span>
+        <div class="score-head">
+          <div><h3>Renee Carter</h3><p>20 yrs home health &middot; applied to Territory B</p></div>
+          <div class="score-big">82%<small>Recommend interview</small></div>
+        </div>
+        <div class="flagrow">
+          <div class="flagcol good"><h4>Strengths</h4><ul><li>CPR certified, background clear</li><li>Reliable vehicle, weekend available</li><li>Correct gait belt &amp; Hoyer lift technique</li></ul></div>
+          <div class="flagcol bad"><h4>Flagged</h4><ul><li>CNA license expired</li><li>Unsure on Parkinson's care scenarios</li></ul></div>
+        </div>
+      </div>
+      <div class="panel" data-reveal="right">
+        <span class="sample-tag">Sample call excerpt</span>
+        <div class="transcript">
+          <div class="line"><b>Agent</b><span>Are you comfortable with dogs and cats in the client's home?</span></div>
+          <div class="line"><b>Renee</b><span>Yes, no allergies, I'm fine with pets.</span></div>
+          <div class="line"><b>Agent</b><span>When using a Hoyer lift, what's the most critical safety step before raising the client?</span></div>
+          <div class="line"><b>Renee</b><span>Make sure the sling is positioned right, straps clipped, and the legs are fully open.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="marquee-section" data-reveal="up">
+    <p class="eyebrow" style="padding:0 20px">From multi-location operators</p>
+    <div class="marquee" aria-label="Customer testimonials"><div class="marquee-track" id="mtrack"></div></div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" data-reveal="scale">
+    <div class="booking-copy">
+      <h2>Want to map it to your locations first?</h2>
+      <p>Book 20 minutes with the CareCrest team. We'll look at your locations and screening volume and show you the agent live.</p>
+      <div><a class="btn btn-primary" href="https://cal.com/carecrest/agencydemo">Schedule a call &rarr;</a></div>
+    </div>
+    <div class="booking-photo"><img src="images/caregiver-hands.jpg" alt="Caregiver assisting a client at home"></div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <div class="final" data-reveal="up">
+    <img src="images/pexels-jsme-mila-523821574-29372534-scaled.jpg" alt="">
+    <div class="veil" aria-hidden="true"></div>
+    <div class="inner">
+      <h2>See it screen a caregiver in real time</h2>
+      <p>The demo takes a few minutes. You'll hear the voice agent run a phone screen, the same one that can run across every one of your locations.</p>
+      <a class="btn btn-primary" href="https://app.carecrest.ai/demo">Try live 5-minute demo</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 CareCrest. All rights reserved.</span>
+    <span><a href="https://carecrest.ai/privacy-policy/">Privacy Policy</a> &nbsp;|&nbsp; <a href="https://carecrest.ai/terms-and-conditions/">Terms</a></span>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
